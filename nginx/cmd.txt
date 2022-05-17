@@ -1,0 +1,1 @@
+docker run --name my_nginx -v ${PWD}:/usr/share/nginx/html -p 8080:80 -d --rm nginx
